@@ -1,0 +1,133 @@
+body{
+	margin:0px;
+	padding:0px;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	overflow-y:scroll;
+	
+}
+
+p{
+	font: 18px Tahoma;
+}
+
+h1{
+	
+
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+
+#header-cont{
+width:100%; position:fixed;top:0px;background:#694489;height:auto;
+opacity:.9;
+}
+
+
+
+#header{
+	
+	background:#694489;
+	margin:0px auto;
+	color:black;
+	text-align:right;
+	/*border:1px solid red;*/
+	width:1000px;
+	font: bold 18px Myriad Pro Light;
+	height:auto;
+
+}
+#header ul{
+	top:0px;
+	/*border:1px solid green;*/
+	bottom:0px;
+	list-style-type:none;
+	position:relative;
+	padding:0px;
+	margin:0px;
+	height:auto;
+	
+	
+	
+}
+
+#header ul li{
+	display:inline-block;
+
+
+}
+
+#header ul li:hover{
+	background-color:#71637D;
+	
+
+}
+
+#header ul li a, visited{
+	display:block;
+	padding:15px;
+	text-decoration: none;
+	color:black;
+	
+}
+
+#header ul li a, hover{
+	color:black
+	text-decoration: none;
+	
+}
+
+
+
+#header ul li:hover ul{
+	display:block;
+	
+
+}
+
+#banner{
+width:100%;
+height:300px;
+background:black;
+-webkit-box-orient: vertical;
+}
+
+
+
+
+
+#main_body{
+	
+	margin:310px 364px;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	max-width:1000px;
+	height:auto;
+	-webkit-border-radius:15px;
+	-webkit-box-shadow: rgba(110,110,110,.5) 8px 8px 8px;
+	width:1000px;
+}
+#content{
+	width:800;
+	background:white;
+	padding:0px 100px;
+	-webkit-box-flex:1;
+	border:1px solid black;
+	-webkit-border-radius:15px;
+	font: 18px Tahoma;
+	margin:auto;
+}
+
+
+#the_footer{
+	background-color:#694489;
+	border:1px solid #black;
+	padding:auto;
+	color:black;
+	text-align:right;
+	width:100%;
+	font: bold 18px Myriad Pro Light;
+	height:38px;
+}
+
