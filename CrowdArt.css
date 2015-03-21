@@ -1,133 +1,329 @@
 body{
-	margin:0px;
-	padding:0px;
-	display:-webkit-box;
-	-webkit-box-pack: center;
-	overflow-y:scroll;
+	
+	color:#000305;
+	font-size:100%;/*Base font 14px*/
+	font-family:Tahoma;
+	line-height:1.5;
+	text-align:left;
+}
+.body{
+	
+	width:70%;
+	margin: 0 auto;
+	clear:both;
+	background-color:#D8D8D8  ;
+	padding:0;
+	
+	
+ }
+
+a{
+	text-decoration:none;
+		
+}
+
+a:link, a:visited{
+
+}
+
+a:hover, a:active{
+
+}
+
+.main_header{
+	background-image:url("img/sky.jpg");
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	
 	
 }
 
-p{
-	font: 18px Tahoma;
-}
-
-h1{
-	
-
-}
-header, section, footer, aside, nav, article, hgroup{
-	display:block;
-}
-
-#header-cont{
-width:100%; position:fixed;top:0px;background:#694489;height:auto;
-opacity:.9;
-}
-
-
-
-#header{
-	
-	background:#694489;
-	margin:0px auto;
-	color:black;
-	text-align:right;
-	/*border:1px solid red;*/
-	width:1000px;
-	font: bold 18px Myriad Pro Light;
+.main_header img{
+	width:30%;
 	height:auto;
-
-}
-#header ul{
-	top:0px;
-	/*border:1px solid green;*/
-	bottom:0px;
-	list-style-type:none;
+	margin:2%;
 	position:relative;
-	padding:0px;
-	margin:0px;
-	height:auto;
+	left:32%;
 	
-	
-	
-}
-
-#header ul li{
-	display:inline-block;
-
-
-}
-
-#header ul li:hover{
-	background-color:#71637D;
-	
-
-}
-
-#header ul li a, visited{
-	display:block;
-	padding:15px;
-	text-decoration: none;
-	color:black;
-	
-}
-
-#header ul li a, hover{
-	color:black
-	text-decoration: none;
-	
-}
-
-
-
-#header ul li:hover ul{
-	display:block;
-	
-
-}
-
-#banner{
-width:100%;
-height:300px;
-background:black;
--webkit-box-orient: vertical;
-}
-
-
-
-
-
-#main_body{
-	
-	margin:310px 364px;
-	display:-webkit-box;
-	-webkit-box-orient: vertical;
-	max-width:1000px;
-	height:auto;
-	-webkit-border-radius:15px;
-	-webkit-box-shadow: rgba(110,110,110,.5) 8px 8px 8px;
-	width:1000px;
-}
-#content{
-	width:800;
-	background:white;
-	padding:0px 100px;
-	-webkit-box-flex:1;
-	border:1px solid black;
-	-webkit-border-radius:15px;
-	font: 18px Tahoma;
-	margin:auto;
-}
-
-
-#the_footer{
-	background-color:#694489;
-	border:1px solid #black;
-	padding:auto;
-	color:black;
-	text-align:right;
+ }
+ 
+.main_header nav{
 	width:100%;
-	font: bold 18px Myriad Pro Light;
-	height:38px;
+	height:58px;
+	background-color:#1e1e1e;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	
 }
 
+.main_header nav ul{
+	list-style:none;
+	margin:0 auto;
+}
+
+.main_header nav ul li{
+	float:left;
+	display:inline;
+}
+
+.main_header nav a:link, .main_header nav a:visited{
+	color:white;
+	display:inline-block;
+	padding:20px 25px;
+	height:15px;
+}
+
+.main_header nav a:hover, main_header nav a:active,
+.main_header nav .active a:link, .main_header nav .active a:visited{
+	background-color:#4B0082;
+	text-shadow:none;
+}
+
+.main_header nav ul li a{
+	/*here i control rounded links*/
+}
+
+.home{
+
+	border-bottom: 3px solid maroon;
+}
+
+.submit{
+
+	border-bottom: 3px solid maroon;
+}
+
+.main_content{
+	line-height:25px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+
+
+.content{
+	width:68%;
+	float:left;
+	color:white;
+	
+	
+}
+
+
+
+.top_content{
+	background-color:#4B0082;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	padding:2% 5% 3% 5%;
+	margin-top:1.6%;
+}
+
+.top_content header{
+	border-bottom:2px solid black;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	padding:0;
+	position: relative;
+	left:-2.5%;
+}
+
+
+.side_bar {
+	width:30%;
+	float:left;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	margin-top:1.1%;
+	margin-right:2%;
+	background-color:#1e1e1e;
+
+}
+
+.side_bar ul{
+	list-style:none;
+	margin:0px 0px 0px 0px;
+	padding:0 0 0 0;
+	font:150% bold Times New Roman;
+	width:100%;
+	
+
+	
+}
+
+.side_bar ul li{
+	float:left;
+	display:block;
+	width:100%;
+	padding: 4.6% 0;
+	overflow: hidden;
+}
+
+.side_bar  a:link, .side_bar  a:visited{
+	color:white;
+	display:block;
+	padding:10% 3% 10% 2%;
+	height:15px;
+	width:100%;
+	
+	
+}
+
+.side_bar  a:hover, .side_bar  a:active,
+.side_bar  .active a:link, .side_bar  .active a:visited{
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background-color:#4B0082;
+	text-shadow:none;
+	width:94%;
+	text-align:center;
+	border-right: 3px solid maroon;
+	transition: background-color 1s, text-align 5s;
+	transition-timing-function: linear;
+	
+}
+
+
+.side_bar  ul li a{
+	/*here i control rounded links*/
+}
+
+.main_footer{
+
+	width:100%;
+	float:left;
+	margin: 2% 0 0 0 ;
+	background-color:#1e1e1e;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	color:white;
+}
+
+
+
+
+/*SUBMIT HTML VARIATIONS*/
+
+.content_submit{
+	width:100%;
+	float:left;
+	color:white;
+	height:auto;
+	
+}
+
+.top_content_submit{
+	background-color:#4B0082;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	padding:2% 6% 3% 6%;
+	margin-top:1.6%;
+	
+}
+
+.top_content_submit header{
+	border-bottom:2px solid black;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	padding:0;
+	position: relative;
+	left:-6%;
+	
+}
+
+.top_content_submit form{
+	margin-top:1%;
+}
+
+.top_content_submit select, .top_content_submit input, 
+.top_content_submit textarea{
+	
+	font:150% Times New Roman;
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-left:4%;
+	resize: none;
+}
+.top_content_submit select{
+	position:relative;
+	left:6%;
+}
+
+.top_content_submit input{
+	position:relative;
+	left:6.9%;
+	
+}
+
+#textD{
+	width: 70%;
+	position:relative;
+	left:10%;
+}
+
+#textS{
+	width: 70%;
+	height:800px;
+	position:relative;
+	left:10%;
+}
+
+#image{
+	position:relative;
+	left:10%;
+	
+}
+
+#inputT{
+	width: 40%;
+	
+}
+
+.top_content_submit label{
+
+}
+
+
+.button{
+	
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	padding:0 10px 0 10px;
+}
+.button a{
+	color:white;
+	
+	height:auto;
+	font:180% bold Times New Roman;
+
+
+	background-color:black;
+	
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	-webkit-box-shadow: rgba(110,110,110,.5) 3px 4px 3px;
+	-webkit-box-shadow: rgba(255,255,255,.5) 4px 4px 5px inset;
+	-moz-box-shadow: rgba(110,110,110,.5) 3px 4px 3px;
+	-moz-box-shadow: rgba(255,255,255,.5) 4px 4px 5px inset;
+	box-shadow: rgba(110,110,110,.5) 3px 4px 3px;
+	box-shadow: rgba(255,255,255,.5) 4px 4px 5px inset;
+
+	
+}
+
+.button a:hover{
+	
+	background-color:maroon;
+}
